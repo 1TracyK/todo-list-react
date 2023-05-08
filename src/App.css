@@ -49,7 +49,6 @@ h1 {
   width: 320px;
   background: transparent;
   color: #fff;
-  text-overflow: hidden;
 }
 
 .todo-input::placeholder {
@@ -65,7 +64,8 @@ h1 {
   background: linear-gradient(
     90deg,
     rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%);
+    rgba(155, 0, 250, 1) 100%
+  );
   color: #fff;
   text-transform: capitalize;
 }
@@ -79,40 +79,31 @@ h1 {
     90deg,
     rgba(20, 159, 255, 1) 0%,
     rgba(17, 122, 255, 1) 100%);
-    padding: 16px 22px;
+  padding: 16px 22px;
 }
 
 .todo-container {
   display: flex;
   flex-direction: row;
   position: relative;
-  word-break: break-all;
-  text-overflow: clip;
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  display: -webkit-box;
-   -webkit-box-orient: vertical;
-   -webkit-line-clamp: 2;
-}
- 
- 
+ }
+
 .todo-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 4px auto;
-    color: #fff;
-    background: linear-gradient(
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: linear-gradient(
     90deg,
     rgba(20, 159, 255, 1) 0%,
     rgba(17, 122, 255, 1) 100%);
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
     padding: 16px;
     border-radius: 5px;
     width: 90%;
-   overflow-x: hidden;
-   display: -webkit-box;
-   -webkit-box-orient: vertical;
-   -webkit-line-clamp: 2;
 }
 
 .icons {
