@@ -1,9 +1,30 @@
-# React todo list app
+# *This is my todo-list-react app which I have designed to help manaage daily tasks.
 
-This is a react.js project which is desighned to Get Things Done and to simplify life. 
 
-In the project directory you can npm start, npm build, npm installs and it uses the deployemnt mode (http://localhost:3000) to view in browser and is currenly hosted on github at  https://1tracyk.github.io/todo-list/
+**Hello in this react.js markdown you can see the steps that the code take to produce the todo list.**
 
-This project will help to list things to do, edit & Update then delete.
+--The code in TodoForm.js handles the logic for changes, submissions and inputs for this app.
 
-Additionally the project was created using nth child selector in css to allow a great user experiece courtesy of W3 Schools & Brians Diaz.
+
+
+--The code in Todo.js hanles the logic for edits, removals and updates.
+
+...
+
+--Then the app.css creates the lovely colors that make it easier navigation.
+
+...
+
+--This react app is currently being hosted on github at:  <https://1tracyk.github.io/todo-list-react>
+
+...
+
+--Then the TodoList.js component will filter through the code in Todo.js using hooks, map and filter to set new todos.
+
+
+
+
+
+
+ Thank You,
+ Tracy Kimbrough

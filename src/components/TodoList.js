@@ -20,9 +20,9 @@ function TodoList() {
     if(!newValue.text || /^\s*$/.test(newValue.text)) 
         return;
         setTodos(prev => prev.map(item => (item.id === todoId ? newValue : item))
-        );
+   );
     }
-    const removeTodo = id =>{
+        const removeTodo = id =>{
         const removeArr = [...todos].filter(todo => todo.id !== id);
     
         setTodos(removeArr);
@@ -37,11 +37,7 @@ function TodoList() {
        setTodos(updatedTodos);
     };
 
-
-
-   
- 
-  return (
+    return (
     <div>
         <h1>Get Things Done</h1>
         <TodoForm onSubmit={addTodo} />
@@ -50,6 +46,5 @@ function TodoList() {
     </div>
   );
 }
-
 
 export default TodoList;

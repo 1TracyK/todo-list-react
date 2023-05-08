@@ -41,7 +41,6 @@ function Todo({todos, completeTodo, removeTodo, updateTodo}) {
 
         </div>
 
-
     </div>
     
   ));

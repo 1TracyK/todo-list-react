@@ -10,8 +10,7 @@ function TodoForm(props) {
         inputRef.current.focus();
     });
 
-   
-       const handleChange = e => {
+        const handleChange = e => {
         setInput(e.target.value);
        };
         
@@ -19,14 +18,12 @@ function TodoForm(props) {
         e.preventDefault();
 
        props.onSubmit({
-        id: Math.floor(Math.random() * 10000), /* creates color change in rows*/
+        id: Math.floor(Math.random() * 100000), /* creates color change in rows*/
        text: input
        });
 
        setInput('');
     };
-
-
 
     return (
         <form onSubmit={handleSubmit} className='todo-form'>
@@ -63,7 +60,4 @@ function TodoForm(props) {
       );
     }
     
-
-
-
 export default TodoForm;
