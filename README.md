@@ -1,7 +1,7 @@
-# *This is my todo-list-react app which I have designed to help manaage daily tasks.
+# *This is my  react todo-list app which I have designed to help manage daily tasks.
 
 
-**Hello in this react.js markdown you can see the steps that the code take to produce the todo list.**
+**Hello in this react.js markdown you can see the steps that the code takes to produce the todo list.**
 
 --The code in TodoForm.js handles the logic for changes, submissions and inputs for this app.
 
